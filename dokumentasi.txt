@@ -1,0 +1,9 @@
+install react js
+install package react-router-dom
+install package axios
+install package bulma
+Hapus file bawaan yang ga perlu
+!App.css,App.test.js,index.css,logo.svg,reportWebVitals.js,setupTests.js
+ubah style jadi react javascript+install extensi sek diperlukan
+kompenen userlist
+kompenen add user
