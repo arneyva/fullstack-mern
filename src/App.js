@@ -1,9 +1,19 @@
+import UserList from "./components/UserList";
+import CreateUser from "./components/CreateUser";
+import UpdateUser from "./components/UpdateUser";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <BrowserRouter>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<UserList />} />
+          <Route path="/create" element={<CreateUser />} />
+          <Route path="/update/:id" element={<UpdateUser />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
